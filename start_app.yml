@@ -7,7 +7,7 @@
     args:
       chdir: /var/www/springpetclinc/
   
-   tasks:
+  tasks:
   - name: Start Spring Pet Clinic Mvnw
     shell: "nohup java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar &"
       args:
