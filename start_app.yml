@@ -1,14 +1,9 @@
 ---
 - hosts: all
 
+ 
   tasks:
   - name: Start Spring Pet Clinic Mvnw
-    command: ./mvnw package
-    args:
-      chdir: /var/www/springpetclinc/
-  
-  tasks:
-  - name: Start Spring Pet Clinic Mvnw
-    shell: java -jar spring-petclinic-2.3.0.BUILD-SNAPSHOT.jar 
+    shell: java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar 
     args:
       chdir: /tmp/var/www/springpetclinc/target
