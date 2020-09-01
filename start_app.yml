@@ -2,5 +2,5 @@
 - hosts: all
 
   tasks:
-  - name: Start Start Spring Pet Clinic Mvnw
-    shell: "nohup java /var/www/springpetclinc/ & "
+  - name: Start Spring Pet Clinic Mvnw
+    shell: "nohup java  -jar /var/www/springpetclinc.jar > /dev/null & & "
