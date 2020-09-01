@@ -2,7 +2,7 @@
 - hosts: all
 
   tasks:
-  - name: Start Spring Pet Clinic 
+  - name: Start Spring Pet Clinic Mvnw
     command: ./mvnw package
     args:
       chdir: /var/www/springpetclinc/
