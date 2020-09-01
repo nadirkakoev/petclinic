@@ -5,7 +5,7 @@
   - name: Start Spring Pet Clinic Mvnw
     command: ./mvnw package
     args:
-      chdir: /var/www/springpetclinic/target
+      chdir: /var/www/springpetclinic/
  
  # tasks:
   #- name: Start Spring Pet Clinic Mvnw
