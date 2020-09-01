@@ -3,4 +3,4 @@
 
   tasks:
   - name: Start Spring Pet Clinic Mvnw
-    shell: "nohup java  -jar /var/www/springpetclinc.jar > /dev/null & & "
+    shell: "nohup java  -jar /var/www/springpetclinc.jar > /dev/null &"
