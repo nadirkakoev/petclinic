@@ -3,4 +3,11 @@
 
   tasks:
   - name: Start Spring Pet Clinic Mvnw
-    shell: "nohup java  -jar /var/www/springpetclinc.jar > /dev/null &"
+    command: ./mvnw package
+    args:
+      chdir: /var/www/springpetclinc/
+  
+  
+  tasks:
+  - name: Start Spring Pet Clinic Mvnw
+    shell: "nohup java  -jar /var/www/springpetclinc.jar &"
