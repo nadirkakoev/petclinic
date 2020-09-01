@@ -5,10 +5,10 @@
   - name: Start Spring Pet Clinic Mvnw
     command: ./mvnw package
     args:
-      chdir: /var/www/springpetclinic/
+      chdir: /var/www/spring-petclinic/
  
   tasks:
   - name: Start Spring Pet Clinic Mvnw
     command: java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar 
     args:
-      chdir: /var/www/springpetclinic/target
+      chdir: /var/www/spring-petclinic/target
