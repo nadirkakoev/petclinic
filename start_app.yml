@@ -9,6 +9,6 @@
   
   tasks:
   - name: Start Spring Pet Clinic Mvnw
-    shell: java -jar spring-petclinic-2.3.1.jar 
+    shell: java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar 
     args:
       chdir: /var/www/springpetclinc/target
