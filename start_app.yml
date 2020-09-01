@@ -2,5 +2,5 @@
 - hosts: all
 
   tasks:
-  - name: Start Flaskex
-    shell: "nohup python3 /var/www/Flaskex/app.py & "
+  - name: Start Start Spring Pet Clinic Mvnw
+    shell: "nohup java /var/www/springpetclinc/ & "
